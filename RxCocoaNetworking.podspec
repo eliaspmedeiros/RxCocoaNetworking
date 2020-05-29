@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name = 'RxCocoaNetworking'
- s.version = '0.2.2'
+ s.version = '0.3.0'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'A Moya-inspired, RxTest-testable networking framework built on top of RxCocoa'
  s.homepage = 'https://github.com/gobetti/RxCocoaNetworking'
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
      ss.source_files  = "Sources/**/*.swift"
      ss.framework  = "Foundation"
 
- s.dependency 'RxCocoa', '~> 4.3'
+ s.dependency 'RxCocoa', '~> 5.1.1'
  end
 
 end
